@@ -11,7 +11,7 @@ const Recipes = ({handleWantToCook}) => {
         .then(res => res.json())
         .then(data => setRecipes(data))
     }, [])
-    // console.log(recipes)
+    console.log(recipes)
     return (
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-10 ">
             {
